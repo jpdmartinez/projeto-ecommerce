@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+#cabecalho{
+    background-color: rgb(31, 87, 255);
+    min-height: 230px;
+}
+
+#cabecalho div{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#cabecalho .logo{
+    width: 140px;
+    height: 110px;
+    padding-top: 20px;
+}
+
+#cabecalho ul{
+    list-style: none;
+    float:left;
+    background-color: white;
+}
+
+#cabecalho ul li{
+    float:left;
+    margin-left: 15px;    
+}
+#cabecalho ul li>a{
+    text-decoration: none;
+    color: blue;
+    margin: 15px;
+    font width: bold;
+    font-size: 16px;
+    line-height:3.5em;
+    padding: 0.5em 1.5em;
+}
+
+ul#navegacao li:hover , ul#navegacao li a:hover{
+    color: aliceblue;
+    background-color: rgb(10, 10, 10);
+}
+
+div.container{
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+#corpo .col_lateral, .col_aplicativo, #corpo .col_tema{
+    float: left;
+}
