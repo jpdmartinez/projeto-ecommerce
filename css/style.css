@@ -7,34 +7,34 @@ body{
     background-color: aliceblue;
 }
 
-#cabecalho{
+header{
     background-color: rgb(65, 105, 255);
     min-height: 230px;
 }
 
-#cabecalho div{
+header div{
     width: 750px;
     margin: 0 auto;
 }
 
-#cabecalho .logo{
+header .logo{
     width: 140px;
     height: 110px;
     padding-top: 20px;
 }
 
-#cabecalho ul{
+header ul{
     list-style: none;
     float: left;
     background-color: white;
 }
 
-#cabecalho ul li{
+header ul li{
     float: left;
     
 } 
 
-#cabecalho ul li>a{
+header ul li>a{
     text-decoration: none;
     color: blue;
     font-weight: bold;
@@ -48,13 +48,13 @@ ul#navegacao li:hover, ul#navegacao li a:hover{
     background-color: rgb(65, 105, 255);
 }
 
-div.container{
+main.container{
     width: 750px;
     margin: 0 auto;
     margin-top: 50px;
 }
 
-#corpo .col_lateral, .col_aplicativo, #corpo .col_tema{
+main .col_lateral, .col_aplicativo, main .col_tema{
     float: left;
 }
 
@@ -155,19 +155,19 @@ div.container{
     margin-bottom: 10px;
 }
 
-#rodape{
+footer{
     clear: both;
     background-color: rgb(65, 105, 255);
     min-height: 50px;
 }
 
-#rodape div{
+footer div{
     text-align: center;
     color: white;
     font-size: 16px;
     font-weight: bold;
 }
 
-#rodape div p{
+footer div p{
     padding: 10px;
 }
